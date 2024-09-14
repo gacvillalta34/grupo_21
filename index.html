@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="es"><!-- Lenguaje -->
+<html lang="es"><!-- Para establecer el idioma del contenido de la página, en este caso en Español -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title><!-- Título -->
+    <meta charset="UTF-8"><!-- Para reconocer carácteres especiales, en este caso del Español -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Le permite a la página adaptar su contenido al 
+    tamaño de la pantalla del disposivo-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Inicio</title>
 </head>
-<body>
-    
-</body>
+    <body><!-- Cuerpo de la página -->
+    <div class="main-content" align="center">
+        <!-- Etiquetas de encabezado de texto: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>-->
+    <h1>Literatura</h1>
+    <h2 class="ciencias">Ciencias</h2>
+    <h3 id="sociales" class="sociales_clase">Sociales</h3>
+    <!-- Etiqueta de párrafo -->
+    <p>- La literatura es una de las bellas artes y una de las más antiguas formas de expresión artística, 
+        que emplea como medio de expresión el lenguaje oral y escrito, utiliza las palabras como herramienta 
+        para su construcción, persigue la belleza y la reflexión.</p>
+        <br><br><!-- Etiqueta de salto de línea -->
+        <p>
+        - Según la Real Academia Española (RAE), literatura es el «arte de la expresión verbal 
+        (entendiéndose como verbal aquello «que se refiere a la palabra, o se sirve de ella) y, por lo tanto, 
+        abarca tanto textos escritos (literatura escrita) como hablados o cantados (literatura oral).</p>
+        </div>
+        <div class="image-content" align="right">
+        <img class="img_primary" src="Imagenes/literatura-02.jpeg" alt="literatura-02"><!-- Trabajando una imagen con px-->
+        <img class="img_secondary" src="Imagenes/literatura-03.gif" alt="literatura-03"><!-- Trabajando el tamaño con porcentajes -->
+        </div>
+        <div class="table-content" align="left">
+            <h1>Tabla de productos</h1>
+            <!-- Tabla/Table-->
+         <table border="1px" id="tabla">
+            <thead><!-- Encabezado de la tabla -->
+                <tr>
+                    <th>#</th><!-- Etiqueta para crear columnas-->
+                    <th>Productos</th>
+                    <th>Precios</th>
+                    <th>Cantidad existente</th>
+                </tr>
+            </thead>
+            <tbody><!-- Etiqueta cuerpo de la tabla -->
+                <!-- Aquí se añadirán las filas -->
+            </tbody>
+         </table>
+         <button id="añadirFila" title="Añadir Fila"><i class="fa-solid fa-plus"></i></i></button>
+         <button id="guardar" title="Guardar"><i class="fa-solid fa-floppy-disk"></i></button>
+         <button id="eliminar" title="Eliminar"><i class="fas fa-trash-alt"></i></button>
+         <button id="actualizar" title="Actualizar"><i class="fa-solid fa-pencil"></i></button>
+         <button id="ocultar" title="Ocultar"><i class="fa-solid fa-eye-slash"></i></button>
+         </div>
+         <hr>
+    </body>
 </html>

@@ -1,0 +1,75 @@
+/*/ Selector de elementos /*/
+h1, h2, h3, h4, h5, h6{
+    color: #5f0909;/*/ Colores a letras en código en Hexadecimal /*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*/ Selector de clases /*/
+.ciencias{
+    color:rgb(27, 149, 186); /*/ Colores en código rgb /*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*/ Selector de ID /*/
+#sociales{
+    color:hsl(55, 75%, 49%); /*/ Colores en código hsl /*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*/ Selector de pseudoclases /*/
+.ciencias:hover{
+    color:hwb(333 9% 21%); /*/ Colores en código hwb /*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+img{ 
+    height: 1000px;
+    width: 1000px;
+}
+.img_primary{
+    height: 50%;
+    width: 50%;
+}
+.img_primary:hover{
+    content: url('../Imagenes/literatura-03.gif');
+}
+.img_secondary:hover{
+    content: url('../Imagenes/literatura-02.jpeg');
+}
+th{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color:#2ec6a0;
+    border-radius: 5px;
+    text-align: center;
+}
+td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+    color:hsl(48, 62%, 48%);
+    border-radius: 10px;
+    text-align: center;
+}
+.columna_01:hover{
+    color:hwb(0 6% 60%);
+    border-radius: 10px;
+    text-align: center;
+}
+.main-content{
+    background-color: hwb(118 13% 43%);
+    border: #0a9e8f;
+    border-radius: 2%; /*/  Crea un radio en el borde del div /*/
+    margin: 15px; /*/ Le añade un margen al div /*/
+    padding: 15px; /*/ Le añade una separación entre los elementos /*/
+}
+.image-content{
+    background-color: hwb(46 13% 39%);
+    border: #c914ba;
+    border-radius: 2%; /*/  Crea un radio en el borde del div /*/
+    margin: 15px; /*/ Le añade un margen al div /*/
+    padding: 15px; /*/ Le añade una separación entre los elementos /*/
+}
+.table-content{
+    background-color: hwb(226 20% 24%);
+    border: #9e0a0a;
+    border-radius: 1%; /*/  Crea un radio en el borde del div /*/
+    margin: 15px; /*/ Le añade un margen al div /*/
+    padding: 15px; /*/ Le añade una separación entre los elementos /*/
+}
